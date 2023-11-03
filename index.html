@@ -580,7 +580,134 @@
             </li>
           </ul>
         </div>
+        <div class="footer-subscribe-form">
+          <label class="footer-subscribe-form-text" for="user-contact-email"
+            >Subscribe</label
+          >
+          <input
+            class="footer-subscribe-form-field"
+            type="email"
+            name="user_contact_email"
+            id="user-contact-email"
+            placeholder="E-mail"
+          />
+          <div class="footer-sbcr-btn">
+            <button class="subscribe-btn" type="submit">Subscribe</button>
+            <svg class="footer-subscr-btn-icon" width="24px" height="24px">
+              <use href="./images/icons.svg#icon-Frame"></use>
+            </svg>
+          </div>
+        </div>
       </div>
     </footer>
+    <!-- Form -->
+    <div class="backdrop">
+      <div class="modal">
+        <button
+          type="button"
+          class="modal-close-btn"
+          aria-label="modal close button"
+        >
+          <svg class="modal-close-btn-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="rewiew-form-description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="rewiew-form">
+          <div class="rewiew-form-field-wrapper">
+            <label class="rewiew-form-field-label" for="user-first-name"
+              >Name</label
+            >
+            <div class="rewiew-form-input-wrapper">
+              <input
+                class="rewiew-form-field"
+                type="text"
+                name="user_first_name"
+                id="user-first-name"
+                required
+                pattern="[a-zA-Zа-яА-ЯіІїЇйЙ']+"
+                title="Georgy"
+              />
+              <svg class="rewiew-form-field-icon" width="18px" height="18px">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="rewiew-form-field-wrapper">
+            <label class="rewiew-form-field-label" for="user-phone"
+              >Phone</label
+            >
+            <div class="rewiew-form-input-wrapper">
+              <input
+                class="rewiew-form-field"
+                type="tel"
+                name="user_phone_number"
+                id="user-phone"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                title="xxx-xxx-xx-xx"
+              />
+              <svg class="rewiew-form-field-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="rewiew-form-field-wrapper">
+            <label class="rewiew-form-field-label" for="user-email"
+              >Email</label
+            >
+            <div class="rewiew-form-input-wrapper">
+              <input
+                class="rewiew-form-field"
+                type="email"
+                name="user_email"
+                id="user-email"
+                required
+              />
+              <svg class="rewiew-form-field-icon" width="18px" height="24px">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="rewiew-form-field-wrapper">
+            <label class="rewiew-form-field-label" for="user-comment"
+              >Comment</label
+            >
+            <textarea
+              class="rewiew-form-message"
+              id="user-comment"
+              name="user_comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="rewiew-form-checkbox-wrapper">
+            <input
+              class="rewiew-form-checkbox visually-hidden"
+              type="checkbox"
+              name="user_policy"
+              value="true"
+              id="user-policy"
+              required
+            />
+            <label class="rewiew-form-checkbox-label" for="user-policy">
+              <span class="rewiew-form-own-checkbox">
+                <svg
+                  class="rewiew-form-own-checkbox-icon"
+                  width="10"
+                  height="8"
+                >
+                  <use href="./images/icons.svg#icon-Vector"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="privacy-policy-link" href=""> Privacy Policy</a>
+            </label>
+          </div>
+          <button class="rewieew-form-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
