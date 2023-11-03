@@ -491,7 +491,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                         outline-offset: 4px;
                     transition: fill 250ms linear;}
                             .rewiew-form-field:focus + .rewiew-form-field-icon{fill:#4d5ae5 ;}
-                            .rewiew-form-field-wrapper{margin-bottom: 8px;}
+                            .rewiew-form-field-wrapper{margin-bottom: 16px;}
                             .rewiew-form-input-wrapper{position: relative;}
                             .rewiew-form-field-icon{fill: #2E2F42;
                                position: absolute;
