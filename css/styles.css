@@ -395,7 +395,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                                                                                                     display: flex;
                                                                                                     min-width: 165px;
                                                                                                     height: 40px;
-                                                                                                    margin-left: 24px;
+                                                                                                    
                                                                                                     justify-content: center;
                                                                                                     align-items: center;
                                                                                                     gap: 16px;
@@ -411,7 +411,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                                                                                                 }
                                                 
                                                                                                 .footer-subscribe-form-block {
-                                                                                                    margin-left: 80px;
+                                                                                                    margin-left:auto;
                                                                                                 }
                                                 /* BACKDROP STYLES */
                                                 .backdrop{position: fixed;
@@ -468,7 +468,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
                                         font-weight: 500;
                                         line-height: 1.5;
                                         letter-spacing: 0.02em;
-                                    margin-top: 72px;
                                 margin-bottom: 16px;}
                                 /* REWIEW FORM STYLES */
                                 .rewiew-form-field-label{display: block;
